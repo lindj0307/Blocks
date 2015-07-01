@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Swiftris
 //
-//  Created by 林东杰 on 15/7/1.
-//  Copyright (c) 2015年 Anta. All rights reserved.
+//  Created by 林东杰 on 15/6/12.
+//  Copyright (c) 2015年 Joey. All rights reserved.
 //
 
 import UIKit
