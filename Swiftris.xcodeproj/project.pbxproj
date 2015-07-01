@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		040419241B442246006BC483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040419231B442246006BC483 /* AppDelegate.swift */; };
-		040419261B442246006BC483 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 040419251B442246006BC483 /* GameScene.sks */; };
 		040419281B442246006BC483 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040419271B442246006BC483 /* GameScene.swift */; };
 		0404192A1B442246006BC483 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040419291B442246006BC483 /* GameViewController.swift */; };
 		0404192D1B442246006BC483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404192B1B442246006BC483 /* Main.storyboard */; };
 		0404192F1B442246006BC483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0404192E1B442246006BC483 /* Images.xcassets */; };
 		040419321B442246006BC483 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040419301B442246006BC483 /* LaunchScreen.xib */; };
 		0404193E1B442246006BC483 /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404193D1B442246006BC483 /* SwiftrisTests.swift */; };
+		040419481B442373006BC483 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 040419471B442373006BC483 /* Images */; };
+		0404194A1B44237B006BC483 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 040419491B44237B006BC483 /* Sounds */; };
+		0404194C1B442381006BC483 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0404194B1B442381006BC483 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,6 @@
 		0404191E1B442245006BC483 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040419221B442246006BC483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040419231B442246006BC483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		040419251B442246006BC483 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		040419271B442246006BC483 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		040419291B442246006BC483 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0404192C1B442246006BC483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,9 @@
 		040419371B442246006BC483 /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0404193C1B442246006BC483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0404193D1B442246006BC483 /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		040419471B442373006BC483 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		040419491B44237B006BC483 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		0404194B1B442381006BC483 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				040419231B442246006BC483 /* AppDelegate.swift */,
-				040419251B442246006BC483 /* GameScene.sks */,
 				040419271B442246006BC483 /* GameScene.swift */,
 				040419291B442246006BC483 /* GameViewController.swift */,
 				0404192B1B442246006BC483 /* Main.storyboard */,
@@ -96,6 +99,9 @@
 		040419211B442245006BC483 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0404194B1B442381006BC483 /* Sprites.atlas */,
+				040419491B44237B006BC483 /* Sounds */,
+				040419471B442373006BC483 /* Images */,
 				040419221B442246006BC483 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,9 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0404194C1B442381006BC483 /* Sprites.atlas in Resources */,
+				0404194A1B44237B006BC483 /* Sounds in Resources */,
+				040419481B442373006BC483 /* Images in Resources */,
 				040419321B442246006BC483 /* LaunchScreen.xib in Resources */,
 				0404192F1B442246006BC483 /* Images.xcassets in Resources */,
-				040419261B442246006BC483 /* GameScene.sks in Resources */,
 				0404192D1B442246006BC483 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
